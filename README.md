@@ -11,6 +11,7 @@ I added a few more controlles to make the API more simmetrical:
 * DELETE /api/cart - clears the card
 * POST /api/cart/drink/{name} - inserts a drink with the given name to the cart
 * PUT api/cart/drink{name} - updates a drink with the given name in the cart
+
 I would prefer to have the cart OR the drink API only but the task requires both at the moment
 
 I have decided not to use any 3rd party libraries except from required by ASP.Net WebAPI itself
